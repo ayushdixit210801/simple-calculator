@@ -9,6 +9,8 @@ function commaAdder(string) {
     let convertedString = `${string}`;
     let ctr = 0;
 
+    console.log("Hello");
+
     if (convertedString === "Infinity")
         return convertedString;
 
